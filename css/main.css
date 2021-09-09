@@ -4,8 +4,11 @@ body {
   overflow: hidden;
   color: transparent;
   background-color: #000;
+  
 }
-
+body::selection {
+  background: black;
+}
 #app {
   position: relative;
   width: 100%;
